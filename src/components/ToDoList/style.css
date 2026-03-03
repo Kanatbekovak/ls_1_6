@@ -1,0 +1,39 @@
+.todo-box {
+    max-width: 350px;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+.input-group {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    background-color: rgb(224, 122, 239) !important;
+}
+
+.todo-item {
+    display: flex; 
+    align-items: center;
+    gap: 10px; 
+    margin-top: 8px;
+    padding: 8px;
+    background: #c7bcd1;
+    border-radius: 8px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #a0a0a0;
+}
+
+.del-btn {
+    margin-left: auto; 
+    background-color: #de6666 !important;
+    padding: 0 5px;
+    color:black;
+}
+
